@@ -73,13 +73,13 @@ tensor = tensor - 10
 tensor
 ```
 
-PyTorch also has a bunch of built-in functions like `[torch.mul()](https://pytorch.org/docs/stable/generated/torch.mul.html#torch.mul)` (short for multiplication) and `[torch.add()](https://pytorch.org/docs/stable/generated/torch.add.html)` to perform basic operations.
+PyTorch also has a bunch of built-in functions like `[torch.mul()]'  and  to perform basic operations.
 
 it's more common to use the operator symbols like `*` instead of `torch.mul()`
 
 **Matrix multiplication**
 
-PyTorch implements matrix multiplication functionality in the `[torch.matmul()](https://pytorch.org/docs/stable/generated/torch.matmul.html)` method.
+PyTorch implements matrix multiplication functionality in the `[torch.matmul()]` method.
 
 The main two rules for matrix multiplication to remember are:
 
@@ -156,7 +156,7 @@ Sum: 450
 
 ### Positional min/max
 
-You can also find the index of a tensor where the max or minimum occurs with `[torch.argmax()](https://pytorch.org/docs/stable/generated/torch.argmax.html)` and `[torch.argmin()](https://pytorch.org/docs/stable/generated/torch.argmin.html)` respectively.
+You can also find the index of a tensor where the max or minimum occurs with [torch.argmax()] and  respectively.
 
 ### Change tensor datatype
 
@@ -166,4 +166,4 @@ If one tensor is in `torch.float64` and another is in `torch.float32`, you mi
 
 But there's a fix.
 
-You can change the datatypes of tensors using `[torch.Tensor.type(dtype=None)](https://pytorch.org/docs/stable/generated/torch.Tensor.type.html)` where the `dtype` parameter is the datatype you'd like to use.
+You can change the datatypes of tensors using `[torch.Tensor.type(dtype=None)]` where the `dtype` parameter is the datatype you'd like to use.
